@@ -1,0 +1,12 @@
+    <div class="row">
+        <div class="col-4 card m-1">
+            <%@dogs.each do |dog|%>
+            <ul class="list-group">
+                <li class="list-group-item">
+                    <%=dog%>
+                </li>
+            </ul>
+            <%end%>
+        </div>
+    </div>
+<a class="btn btn-primary mt-2" href="/dogs/new" role="button">Create a Dog</button>
